@@ -105,7 +105,7 @@ if [ -d "/var/log/sphinx" ]; then
     echo "/var/log/sphinx removed..."
 fi
 
-
+chmod +x bin/*
 mkdir -p /etc/sphinx /var/lib/sphinx/data /var/log/sphinx
 cp etc/sphinx.conf /etc/sphinx/sphinx.conf
 cp bin/indexer /usr/local/bin/indexer
