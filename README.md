@@ -19,6 +19,7 @@ Install SQL drivers before installing
     apt install libmariadb-client-lgpl-dev-compat
 
 And run everything you need with one command
+
     chmod +x ./install.sh
     ./install.sh
 
