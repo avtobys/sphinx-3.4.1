@@ -106,6 +106,7 @@ if [ -d "/var/log/sphinx" ]; then
 fi
 
 chmod +x bin/*
+chmod +x ./uninstall.sh
 mkdir -p /etc/sphinx /var/lib/sphinx/data /var/log/sphinx
 cp etc/sphinx.conf /etc/sphinx/sphinx.conf
 cp bin/indexer /usr/local/bin/indexer
