@@ -1,0 +1,10 @@
+/var/log/sphinx/query.log /var/log/sphinx/searchd.log {
+    daily
+    rotate 4
+    compress
+    missingok
+    sharedscripts
+    postrotate
+    start-stop-daemon -K -p /run/searchd.pid -s USR1 -x /usr/local/bin/searchd -q
+    endscript
+}

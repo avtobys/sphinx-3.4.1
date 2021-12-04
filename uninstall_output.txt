@@ -1,0 +1,17 @@
+root@kali:~/sphinx-3.4.1# ./uninstall.sh
+WARNING: next paths will be removed:
+
+/etc/sphinx
+/etc/logrotate.d/sphinx
+/var/lib/sphinx/data
+/var/log/sphinx
+/usr/local/bin/indexer
+/usr/local/bin/indextool
+/usr/local/bin/searchd
+/usr/local/bin/wordbreaker
+/usr/lib/systemd/system/sphinx.service
+
+
+Press [Y] to continie or any key to cancel: y
+Removed /etc/systemd/system/multi-user.target.wants/sphinx.service.
+root@kali:~/sphinx-3.4.1#
