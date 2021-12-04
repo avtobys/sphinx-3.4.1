@@ -22,6 +22,12 @@ And run everything you need with one command
 
     ./install.sh
 
+Service management via systemctl
+
+    systemctl start sphinx.service
+    systemctl stop sphinx.service
+    systemctl restart sphinx.service
+
 Example easy install
 
     root@kali:~/sphinx-3.4.1# systemctl start mysql
